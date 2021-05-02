@@ -1,5 +1,5 @@
 # Client-Sales-Projections-and-Bucketing
-Projecting the spending patterns of clients 12 months into the future, and then to bucket them into high, medium, and low priorites for advertising.
+Projected the spending patterns of clients 12 months into the future, and then bucketed them into high, medium, and low priorites for advertising.
 
 - Used dual Autoregressive Integrated Moving Average (ARIMA) models to simultaneously project rolling 12 month sales and rolling 12 month redemptions.
 - Took the net change between these outputs as the final projection for a clients spending 12 months into the future.
